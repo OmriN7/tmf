@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+	<head>
+	
+		<!-- to do 
+		
+		- Add Application page
+		- Add History page
+		- Add a webm alternative to the hero video bg
+		- Fix the misuse of <hr> tags.
+		- Add fade ins. https://github.com/jlmakes/scrollreveal.js
+		
+		@Homepage
+		- Add the logos thing
+		
+		@Team, History, Apps
+		- Add parralax on non-video heros + filters that change 
+		
+		- Add a navbar
+		!! Have it a hamburger and only once you
+		hover over it, all the options come into view.
+			- Home
+			- Team
+			- History
+			- Application
+			- Source Code
+		
+		
+		- Add a footer
+		!! Rip the color from Apple's website :^)
+		
+		
+		- Font rendering on chrome -- look into webkit stuff.
+		
+		- Create an _animations.scss file
+		
+		
+		
+		- Footer
+		- Tags
+		
+		
+		
+		
+		
+		
+		
+		
+		-->
+		
+		<!-- Refs: 
+		- http://www.emoji-cheat-sheet.com/
+		- https://twitter.github.io/twemoji/preview.html
+		-->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- LIBRARIES -->
+		<!---------------------------------------------->
+		
+		<!-- BOOTSTRAP CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+		<!-- TWEMOJI AWESOME -->  
+		<link rel="stylesheet" href="/tmf/libs/css/twemoji-awesome.css">
+		
+		<!-- AWESOMEFONT CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		
+		
+		<!-- STYLESHEETS -->
+		<!---------------------------------------------->
+		
+		<!-- BOOTSTRAP CSS-->
+		<link rel="stylesheet" href="/tmf/res/css/style.css">
+
+		
+		
+		<!-- FONTS -->
+		<!---------------------------------------------->
+		
+		<!-- Raleway Font -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:200,500' rel='stylesheet' type='text/css'>
+		
+		<!-- CEVO Commons Font -- Used for their icon -->
+		<link rel="stylesheet" media="all" href="https://use.fonticons.com/kits/d682a947/d682a947.css">
+		
+		
+		
+	</head>
+	
+	<body>
+		<!-- Frags -->
+		<!-- Bombs Planted -->
+		<!-- Headshots? -->
+		<!-- Matches won -->
+		
+		<header>
+		
+			<nav>
+				<p class="navbar-brand text-uppercase">tmf</p>
+			</nav>
+			
+			
+			<div class="hero hero--bg-vid0">
+			
+				<video autoplay muted loop poster="/tmf/res/graphics/missingtexture.jpg" class="hero__bg-vid">
+					<source src="/tmf/res/graphics/videos/m2v-web.mp4" type="video/mp4">
+				</video>
+				
+				<div class="hero-inner-container hero-inner-container--bg-vid">
+					<h1 class="text-uppercase text-center hero__header hero__header--lg">Thank Mr Friberg</h1>
+					<p class="hero__caption h6 text-uppercase">Professional CS:GO eSports Team</p>
+					<i class="fa fa-angle-down fa-5x hero__down-arrow animation-nod" aria-hidden="true"></i>
+					
+					<ul class="hero__social-container">
+						<li class="hero__social text-shadow"> <i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i> </li> 
+						<li class="hero__social text-shadow hero__social--snapchat"> <i class="fa fa-snapchat-square fa-3x" aria-hidden="true"></i> </li> 
+						<li class="hero__social text-shadow"> <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i> </li> 
+						<li class="hero__social text-shadow hero__social--steam"> <i class="fa fa-steam-square fa-3x" aria-hidden="true"></i> </li> 
+					</ul>
+					
+				</div>
+				
+			</div>
+			
+			<style>
+			
+				.hero__social
+				{
+					margin: 5px;
+					color: white;
+					cursor: pointer;
+					
+				}
+				
+				.text-shadow
+				{
+					text-shadow: 0 2px rgba(33,33,33,0.8);
+				}
+				
+				.hero__social:hover
+				{
+					color: red;
+					transform:translateY(20px);
+				}
+				
+				.hero__social--snapchat{}
+				.hero__social--steam{}
+				
+				.hero__social-container
+				{
+					margin-top: 50px;
+				}
+				.section-header
+				{
+					margin-bottom: 20px;
+					margin-top: 50px;
+				}
+				
+				.beep-inner
+				{
+					background-image: linear-gradient(to right,#fff,transparent);
+					padding: 100px 0 100px 30px;
+				}
+				
+				.beep
+				{
+					background-image: url("http://static.hltv.org/images/galleries/6699-full/1429903720.9466.jpeg");
+					background-size: 100%;
+					background-repeat: no-repeat;
+					background-position: 320% ;
+				}
+			</style>
+		</header>
+		
+		<main>
+			<div class="container">
+				<div class="stats">
+				
+						<img class="stat-img center-image" src="/tmf/res/graphics/icon_pistol.png">
+						<p class="text-uppercase text-center">Scrims Won</p>
+						<p class="text-uppercase text-center" style="font-family: Calibri">532534</p>
+						<img class="stat-img" src="/tmf/res/graphics/icon_skull.png">
+						<img class="stat-img" src="/tmf/res/graphics/icon_wins.png">
+						<img class="stat-img" src="/tmf/res/graphics/icon_bullets.png">
+						<img class="stat-img" src="/tmf/res/graphics/icon_bomb.png">
+				</div>
+			</div>
+			
+			<style>
+				.stat-img
+				{
+					height: 100px;
+					width: 100px;
+				}
+				
+				.stats
+				{
+					margin-bottom: 30px;
+				}
+			</style>
+		
+			<div class="beep">
+				<div class="container-fluid beep-inner">
+			
+					<section class="col-md-6 ">
+						<header>
+							<h1 class="text-left text-uppercase text-light h4 no-margin">About Us</h1>
+							<hr class="no-margin hr--bold">
+						</header>
+				
+						<article>
+							<p>
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+							</p>
+						</article>
+					</section>
+				</div>
+			</div>
+			
+			<!-- Main Roster Section -->
+			<section class="container">
+				<header>
+					<h1 class="text-center text-uppercase text-light h3 section-header">Main Roster</h1>
+				</header>
+					
+				<div class="center-block">
+					<!-- Nate -->
+					<div class="player-min">
+						<img class="player__picture player__picture--balance" src="/tmf/res/graphics/profile-nate.png" alt="Patrick Bateman, a character from American Psycho. Played by Christian Bale. White guy in a suit with hair peeled back and very 1970's glasses." title=":^)">
+						<h6 class="text-center">Nate</h6>
+					</div>
+					
+					<!-- Rebel -->
+					<div class="player-min">
+						<img class="player__picture player__picture--balance" src="/tmf/res/graphics/profile-matt.png" alt="Patrick Bateman, a character from American Psycho. Played by Christian Bale. White guy in a suit with hair peeled back and very 1970's glasses." title=":^)">
+						<h6 class="text-center">Rebel</h6>
+					</div>
+					
+					<!-- b1ur -->
+					<div class="player-min">
+						<img class="player__picture player__picture--balance" src="/tmf/res/graphics/profile-b1ur.png" alt="Ryu from Street Fighter. Martial Arts beefy tough lookin' guy." title=">:I">
+						<h6 class="text-center">b1ur</h6>
+					</div>
+					
+					<!-- Omrii -->
+					<div class="player-min">
+						<img class="player__picture player__picture--balance" src="/tmf/res/graphics/profile-omrii.png" alt="Daniel Avadaniel in cartoon form. A guy with long hair, cool shades, a five-o'clock shadow and a face of disgust." title=":\">
+						<h6 class="text-center">
+							<i class="twa twa-sparkles"></i>
+							Omrii
+							<i class="twa twa-sparkles"></i>
+						</h6>
+					</div>
+					
+					<!-- Hales -->
+					<div class="player-min">
+						<img class="player__picture player__picture--balance" src="/tmf/res/graphics/profile-hales.png" alt="Hales, if he was a hotcake. With a smiley face made out of two blackberries, a strawberry, and whipped cream." title=":•)">
+						<h6 class="text-center">Hales</h6>
+					</div>
+				</div>
+			</section>
+			
+			<div class="beep">
+				<div class="container-fluid beep-inner">
+			
+					<section class="col-md-offset-6 col-md-6">
+						<header>
+							<h1 class="text-left text-uppercase text-light h4 no-margin">About Us</h1>
+							<hr class="no-margin hr--bold">
+						</header>
+				
+						<article>
+							<p>
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+								Lorem Ipsum
+							</p>
+						</article>
+					</section>
+				</div>
+			</div>
+			<section class="container">
+				<header>
+					<h1 class="text-left text-uppercase text-light h4 no-margin">About Us</h1>
+					<hr class="no-margin hr--bold">
+				</header>
+				
+					<article>
+				<p>
+					After the dissolution of Team Hotcakes, <strong class="player-name">Omrii</strong> and <strong class="player-name">Hales</strong> wanted to continue
+					their Counter-Strike legacy. After numerous failed attempts at finding a new home on the infamous <b>CEVO Forums</b>, They've talked things over and
+					thus, <em>thank mr friberg</em> was born.<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+					Initialy the roster was composed of:
+					
+					<ul class="roster">
+						<li>Omrii</li>
+						<li>Hales</li>
+						<li>b1ur</li>
+						<li>bo4r</li>
+						<li>Dingus</li>
+					</ul>
+					<ul class="roster">
+						<li>Omrii</li>
+						<li>Hales</li>
+						<li>b1ur</li>
+						<li>TuxedoWolf</li>
+						<li>DiZzy</li>
+					</ul>
+					<ul class="roster">
+						<li>Omrii</li>
+						<li>Hales</li>
+						<li>b1ur</li>
+						<li>Nate</li>
+						<li>Rebel</li>
+					</ul>
+				</p>
+				</article>
+			</section>
+		
+		
+		
+		</main>
+		
+		<footer class="footer-map">
+			<div class="container">
+				Bleep bloop
+			</div>
+		</footer>
+		
+	</body>
+</html>
