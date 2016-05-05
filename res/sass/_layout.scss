@@ -1,0 +1,238 @@
+/* player */ 
+/* stat */
+/* stripe */
+
+
+/* player */
+.player
+{
+	display: block;
+	height: 200px;
+	margin-bottom: 40px;
+}
+
+.player-min
+{
+	height: 250px;
+	display: inline-block;
+}
+
+.player__picture
+{
+	border-radius: 50%;
+	margin-right: 20px;
+	height: 200px;
+}
+
+.player__picture--balance
+{
+	margin: 0 10px;
+}
+
+.player__name
+{
+	display: inline;
+	font-size: 32px;
+	margin-right: 5px;
+}
+
+.player__role
+{
+	display: inline;
+	font-size: 32px;
+	color: #50585C;
+	
+	font-weight: 200;
+}
+
+.player-description
+{	
+	font-size: 16px;
+	color: #50585C;
+	font-weight: 200;
+}
+
+.player__rank
+{
+	height: 15px;
+	margin-left: 6px;
+	margin-bottom: 8px;
+}
+
+.player__nickname
+{
+	color: #383944;
+	
+	&::after
+	{
+		content: "”";
+	}
+	
+	&::before
+	{
+		content: "“";
+	}
+}
+
+.player__coin-twa
+{
+	margin: 3px;
+	margin-top: 2px;
+	position: absolute;
+}
+
+.player__coin
+{
+	max-height: 22px;
+	display: inline;
+}
+
+.player__coins-container
+{
+	margin-bottom: 3px;
+}
+
+
+.player__picture-container
+{
+	display: inline;
+	height: 200px;
+}
+
+.player__text-container
+{
+	height: 200px;
+}
+
+
+
+/* stat */
+.stat__img
+{
+	width: 100px;
+	padding-right: 20px;
+	padding-left: 20px;
+	-webkit-filter: drop-shadow(0px 2px 0px rgb(204, 204, 204));
+	filter: drop-shadow(0px 2px 0px rgb(204, 204, 204));
+	float: left;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.stat__title
+{
+	font-weight: 500;
+	margin-bottom: 0;
+	letter-spacing: 0.4px;
+	font-size: 14px;
+	margin-left: 65px;
+}
+
+.stat__counter
+{
+	font-weight: 300;
+	margin-bottom: 0;
+	letter-spacing: 0.5px;
+	font-size: 60px;
+	color: #999;
+	font-family: BebasNeue;
+	line-height: 42PX;
+	margin-top: 3px;
+	margin-left: 63px;
+}
+
+
+
+.stat-container
+{
+	margin: 0 15px;
+	border-radius: 5px;
+}
+
+.stats
+{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+
+/* stripe */
+
+.stripe-inner
+{
+	color: white;
+	padding: 100px 0 100px 30px;
+}
+
+.stripe--bg0
+{
+	background-image: url("/tmf/res/graphics/stripe-bg0.png");
+}
+
+.stripe--bg1
+{
+	background-image: url("/tmf/res/graphics/stripe-bg1.png");
+}
+
+.stripe--bg2
+{
+	background-image: url("/tmf/res/graphics/stripe-bg2.png");
+}
+
+
+.stripe
+{
+	background-repeat: no-repeat;
+	height: 400px;
+	background-position: center;
+}
+
+.stripe__caption
+{	
+	padding: 0 75px;
+}
+
+
+
+/* roster ! Made for li */
+.roster
+{
+	list-style-type: disc;
+	background: #eee;
+	padding: 5px 0 5px 40px;
+	max-width: 300px;
+}
+
+.roster li
+{
+	display: list-item;
+}
+
+.block-list 
+{
+	list-style-type: none;
+}
+
+.block-list li
+{
+	display: list-item;
+}
+
+/* misc */
+.text-shadow
+{
+	text-shadow: 0 2px rgba(33,33,33,0.8);
+}
+
+.section-header
+{
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.center-flex
+{	
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,18 @@
+//MAIN STYLE SHEET
+
+//Define base variables first
+@import '_fonts'; //Fonts
+@import '_colors'; //colors
+@import '_settings'; //Basic decelerations for globals such as "::selection", and other general tags
+
+
+//Layout nav stuff
+@import '_header'; //used for the header nav 
+@import '_footer'; //used for the header nav 
+
+
+//Then all of the other junk
+@import '_typography'; //defining <hx>, <p> and other tags of similar nature
+@import '_layout'; //layout of page(s)
+@import '_buttons'; //buttons throughout the website
+@import '_animations.scss'; //buttons throughout the website

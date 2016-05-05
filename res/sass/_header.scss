@@ -1,0 +1,170 @@
+/* nav */
+/* hero */
+
+
+/* nav */
+nav
+{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(rgba(56,56,68,0.4), rgba(56,56,68,0.2), rgba(0,0,0,0.00), rgba(0,0,0,0.00), rgba(0,0,0,0.00)); /* Standard syntax */
+	z-index: 1;
+}
+
+.navbar-brand
+{
+	color: white; 
+	margin: 0 0 0 10px;
+	padding: 10px;
+}
+
+/* hero */
+.hero-inner-container
+{
+	background-repeat: no-repeat;
+	
+	
+	width: 100%;
+	height: 100%;
+	
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+}
+
+
+.hero-inner-container--bg-vid
+{
+	position: absolute;
+}
+
+.hero
+{
+	position: relative;
+	width: 100%;
+	margin-bottom: 55px;
+}
+
+
+//Sick solution: http://stackoverflow.com/questions/11243075/css-scale-height-to-match-width-possibly-with-a-formfactor
+//Has a js solution as well if you don't want a pure css solution
+
+//vid 0's resolution is 1280x600
+// 1280 / 600 = 0.46875
+.hero--bg-vid0
+{
+	padding-bottom: 46.875%; //Sets height to width ratio
+}
+
+.hero--bg-cbbl
+{
+	background-image: url("/tmf/res/graphics/bg-cbbl.jpg");
+	background-size: 100%;
+}
+
+.hero--bg-mirage
+{
+	background-image: url("/tmf/res/graphics/bg-mirage.jpg");
+	background-size: 100%;
+}
+
+.hero__bg-vid
+{
+	position: absolute;
+	width: 100%;
+}
+
+.hero--md
+{
+	height: 550px;
+}
+.hero__header
+{
+	color: white;
+	margin: 0;
+	font-weight: 300;
+	background: black;
+	color: white;
+	padding: 10px 30px 0 30px;
+			
+	line-height: 0.9;
+}
+
+.hero__caption
+{
+	color: white;
+	margin: 0;
+	font-weight: 500;
+	background: black;
+	color: white;
+	padding: 5px 15px 4px 15px;
+	margin-top: 10px;
+	letter-spacing: 4px;
+    font-style: italic;
+    transform: skewX(17deg);
+}
+
+.hero__down-arrow
+{
+	margin-top: 50px;
+	color: white;
+	
+}
+
+.hero__header--lg
+{
+	line-height: 1.1;
+	padding: 0 30px;
+	white-space: nowrap;
+	font-weight: 200;
+	&::before,
+	&::after
+	{
+		content: " - ";
+	}
+}
+
+.hero__social-anchor
+{
+	text-decoration: none !important;
+}
+
+.hero__social
+{
+	margin: 5px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	
+	-webkit-transition: 0.1s;
+    transition: 0.1s;
+	
+	
+    transform:translateY(0);
+	
+	&:hover
+	{
+		text-decoration: none;
+		transform:translateY(3px);
+		text-shadow: 0 0px transparent;
+	}
+}
+
+.hero-inner-container--center
+{
+	margin-top: 6%;
+}
+
+.hero__social--snapchat{ &:hover{ color: $color-snapchat; } }
+.hero__social--steam:hover{ &:hover{ color: $color-steam } }
+.hero__social--youtube:hover{ &:hover{ color: $color-youtube } }
+.hero__social--twitter:hover{ &:hover{ color: $color-twitter } }
+
+.hero__social-container
+{
+	margin-top: auto;
+	margin-bottom: 1.5%;
+}

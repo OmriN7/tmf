@@ -1,0 +1,94 @@
+body
+{
+	font-family: Raleway, Calibri, sans-serif;
+	color: #333;
+}
+
+.text-faded
+{
+	color: #ccc;
+	opacity: 0.7;
+}
+
+.text-light
+{
+	font-weight: 200;
+}
+		
+		
+.text-flavor-primary
+{
+	color: $color-flavor-primary;
+}
+
+
+.text-flavor-secondary
+{
+	color: $color-flavor-secondary;
+}
+
+.no-margin
+{
+	margin: 0;
+}
+
+.hr--bold
+{
+	margin-top: 0;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #777;
+}
+
+
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,  p, .p
+	{
+		cursor: default;
+	}
+		
+	h1, .h1 { font-size: 72px; }
+	h2, .h2 { font-size: 64px; }
+	h3, .h3 { font-size: 48px; }
+	h4, .h4 { font-size: 36px; }
+	h5, .h5 { font-size: 28px; }
+	h6, .h6 { font-size: 16px; }
+	
+	p, .p, label, .label
+	{
+		font-size: 14px;
+	}
+	
+	input
+	{
+		font-size: 13px;		
+		color: $color-gray-semidark;
+		
+		&:focus,
+		&:active,
+		
+		{
+			color: $color-black;
+		}
+	}
+
+
+
+address
+{
+	color: #ccc;
+	font-size: 12px;
+	letter-spacing: 0.4px;
+}
+		
+footer 
+{
+	*
+	{
+		margin: 2px;
+	}
+		
+	a
+	{
+		margin: 0;
+	}
+}

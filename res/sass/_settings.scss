@@ -1,0 +1,51 @@
+::selection 
+{
+	color: $color-white;
+	background: $color-flavor-tertiary;
+}
+
+/* Code for Firefox */
+::-moz-selection 
+{ 
+	color: $color-white;
+	background: $color-flavor-tertiary;
+}
+
+ul
+{
+	padding-left: 0;
+}
+
+a,
+a:hover ,
+a:active,
+a:visited,
+a:link
+{
+	color: #333;
+	cursor: pointer !important;
+}
+
+hr
+{
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 7px;
+	border: 0;
+	border-top: 1px solid #fff;
+}
+
+section
+{
+	margin: 50px 0;
+}
+
+li
+{
+	display: inline;
+}
+
+main
+{
+	background: white;
+}

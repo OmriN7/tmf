@@ -1,0 +1,97 @@
+/*button-social*/
+/*btn-standard */
+
+
+
+/* button-social */
+.button-social
+{
+	font-size: 22px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0;
+	cursor: pointer;
+	text-align: center;
+	
+	-webkit-transition:  0.1s; /* Safari */
+	transition:  0.1s;
+	
+	border-top: 0px solid #fff;  
+	
+	display: inline;
+	float: left;
+	&:first-child
+	{
+		margin-left: 0;
+	}
+	
+	&:hover
+	{
+		padding-top: 2px;
+	}
+}
+
+.button-social + .ico-mark
+{
+}
+
+.button-social--twitter 
+{ 
+	&:hover
+	{ 
+		color: $color-twitter;
+		filter: drop-shadow(0px 0px 0.3px #aaa); 
+	} 
+}
+
+.button-social--github
+{ 
+	&:hover
+	{ 
+		color: $color-github;
+		filter: drop-shadow(0px 0px 0.3px #aaa); 
+	} 
+}
+
+.button-social--steam
+ { 
+	&:hover
+	{
+		color: $color-steam; 
+		filter: drop-shadow(0px 0px 0.3px #aaa);
+	}
+ }
+ 
+.button-social--cevo
+{ 
+	
+	font-size: 17px !important;
+	line-height: 30px !important;
+	
+	&:hover
+	{
+		color: $color-cevo;
+		filter: drop-shadow(0px 0px 0.3px #aaa);
+	} 
+}
+
+
+
+/* btn-standard */
+
+.btn-standard
+{
+	border: 1px solid #333;
+	border-radius: 7px;
+	padding: 7px 20px;
+	font-size: 12px;
+	transition: 0.1s;
+	box-shadow: 1px 1px 1px transparent;
+	
+	&:hover
+	{
+		box-shadow: 0 0 2px #aaa;
+		text-decoration: none;
+		border: 1px solid #aaa;
+	}
+}

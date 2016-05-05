@@ -1,0 +1,31 @@
+
+$nodOffset: 5px;
+
+.animation-nod
+{
+	-webkit-animation-name: nod ; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: nod;
+    animation-duration: 1s;
+	animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes nod 
+{
+	0%		{transform:translateY(0);}
+    25%		{transform:translateY(0);}
+    50%		{transform:translateY($nodOffset)}
+    75%		{transform:translateY($nodOffset)}
+    100%	{transform:translateY(0);}
+}
+
+/* Standard syntax */
+@keyframes nod 
+{
+	0%		{transform:translateY(0);}
+    25%		{transform:translateY(0);}
+    50%		{transform:translateY($nodOffset)}
+    75%		{transform:translateY($nodOffset)}
+    100%	{transform:translateY(0);}
+}
