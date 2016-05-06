@@ -2,7 +2,10 @@
 eSport Team Website Project
 
 master branch - soruce code
+
 gh-branch - dist code
+
+
 
 TO DO LIST
 - Finish History page
