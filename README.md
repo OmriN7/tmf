@@ -12,5 +12,5 @@ TO DO LIST
 - Add apps page
 - Hamburger Navabr w/ all pages + Source code
 - Font rendering on chrome -- look into webkit stuff.
-- Fix the misuse of <hr> tags.
+- Fix the misuse of hr tags.
 - Make sure the backgrounds on the homepage play nice with 1440p resolutions
