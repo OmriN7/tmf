@@ -9,6 +9,7 @@ gh-branch - dist code
 
 TO DO LIST
 - Add a larger delay to the stats in the homepage
+- Add alt tags where there are non for img tags
 - Make the hover over for the buttons blue and not gray
 - Fix what it says regarding the history page & 404. 
 - Finish History page
