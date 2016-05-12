@@ -11,6 +11,7 @@ TO DO LIST
 - Add a larger delay to the stats in the homepage
 - Optimize the images where needed. ( a lot! )
 - minify html
+- Reevaluate which libraries to place where...
 - Add alt tags where there are non for img tags
 - Make the hover over for the buttons blue and not gray
 - Fix what it says regarding the history page & 404. 
