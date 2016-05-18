@@ -1,10 +1,9 @@
 # thank mr friberg
 eSport Team Website Project
 
-master branch - src code
+master branch - source code
 
-gh-branch - dist code
-
+gh-branch - distribution code
 
 
 ### TO DO LIST 
