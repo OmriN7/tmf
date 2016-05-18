@@ -29,4 +29,4 @@ gh-branch - distribution code
 - Add apps page
 - Hamburger Navabr w/ all pages + add link to source code
 - Font rendering on chrome -- look into webkit stuff.
-- Add open graph metatags
+- Add open graph metatags & Open twitter card metatags
