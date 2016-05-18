@@ -9,7 +9,7 @@ gh-branch - distribution code
 ### TO DO LIST 
 
 ##### optimization stuff
-- Optimize the images where needed. ( a lot! )
+- Optimize the images where needed. ( a lot of places! )
 - Download all of the libraries and include them in the style.css instead of loading them each from a seperate call
 - minify html
 - Figure out why the hell CEVO's icon thing takes up 600kb and how that can be fixed
@@ -29,3 +29,4 @@ gh-branch - distribution code
 - Add apps page
 - Hamburger Navabr w/ all pages + add link to source code
 - Font rendering on chrome -- look into webkit stuff.
+- Add open graph metatags
