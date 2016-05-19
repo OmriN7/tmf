@@ -10,8 +10,6 @@ gh-branch - distribution code
 
 ##### optimization stuff
 - Optimize the images where needed. ( a lot of places! )
-- Download all of the libraries and include them in the style.css instead of loading them each from a seperate call
-- minify html
 - Figure out why the hell CEVO's icon thing takes up 600kb and how that can be fixed
 - Reevaluate which libraries to place where...
 - Fix the misuse of hr tags.
@@ -24,10 +22,8 @@ gh-branch - distribution code
 - Same goes for the hero's social media container only please make that a little larger, not smaller.
 - Add alt tags where there are none for img tags
 - Make the hover over for the buttons blue and not gray
-- Fix what it says regarding the history page & 404. 
 - Finish History page
 - Add apps page
 - Hamburger Navabr w/ all pages + add link to source code
-- Font rendering on chrome -- look into webkit stuff.
 - Add open graph metatags & Open twitter card metatags
 - Possibly change the bg of the third stirpe in the homepage. GeT_RighT's forehead is a little too bright...
