@@ -17,7 +17,7 @@ gh-branch - distribution code
 
 
 ##### content stuff
-- Add a larger delay to the stats in the homepage
+- Add a larger delay to the stats in the homepage or alternatively see if you can make the animations trigger only once the video loads
 - Change  `.hero-inner-container--center`'s`margin-top` from 6% to 3.5% or something smaller.
 - Same goes for the hero's social media container only please make that a little larger, not smaller.
 - Add alt tags where there are none for img tags
