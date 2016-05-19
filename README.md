@@ -30,3 +30,4 @@ gh-branch - distribution code
 - Hamburger Navabr w/ all pages + add link to source code
 - Font rendering on chrome -- look into webkit stuff.
 - Add open graph metatags & Open twitter card metatags
+- Possibly change the bg of the third stirpe in the homepage. GeT_RighT's forehead is a little too bright...
