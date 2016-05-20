@@ -12,6 +12,7 @@ gh-branch - distribution code
 - Figure out why the hell CEVO's icon thing takes up 600kb and how that can be fixed
 - Fix the misuse of hr tags.
 - Make sure the backgrounds on the homepage play nice with 1440p resolutions
+- Make a js file per page...?
 
 
 ##### content stuff
