@@ -11,7 +11,7 @@ gh-branch - distribution code
 ##### optimization stuff
 - Fix the misuse of hr tags.
 - Make sure the backgrounds on the homepage play nice with 1440p resolutions
-- Make a js file per page...?
+- USE THIS FOR JAVASCRIPT SO IT WON'T BE ALL GROSS WITH LIKE 3 HTTP CALLS http://supergeekery.com/geekblog/comments/tutorial-using-gulp-and-htmlprocess-and-concatenate
 
 
 ##### content stuff
