@@ -18,3 +18,4 @@ gh-branch - distribution code
 - Finish History page
 - Add apps page
 - Hamburger Navabr w/ all pages + add link to source code
+- Make the parralax function run inside jQUERY's `OnLoad` function
