@@ -1,0 +1,12 @@
+input
+{
+	font-size: 13px;		
+	color: $color-gray-semidark;
+		
+	&:focus,
+	&:active,
+		
+	{
+		color: $color-black;
+	}
+}

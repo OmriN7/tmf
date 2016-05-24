@@ -31,16 +31,11 @@
 	}
 }
 
-.button-social + .ico-mark
-{
-}
-
 .button-social--twitter 
 { 
 	&:hover
 	{ 
 		color: $color-twitter;
-		filter: drop-shadow(0px 0px 0.3px #aaa); 
 	} 
 }
 
@@ -49,7 +44,6 @@
 	&:hover
 	{ 
 		color: $color-github;
-		filter: drop-shadow(0px 0px 0.3px #aaa); 
 	} 
 }
 
@@ -58,7 +52,6 @@
 	&:hover
 	{
 		color: $color-steam; 
-		filter: drop-shadow(0px 0px 0.3px #aaa);
 	}
  }
  
@@ -71,7 +64,6 @@
 	&:hover
 	{
 		color: $color-cevo;
-		filter: drop-shadow(0px 0px 0.3px #aaa);
 	} 
 }
 
@@ -90,8 +82,8 @@
 	
 	&:hover
 	{
-		box-shadow: 0 0 2px #aaa;
+		box-shadow: 0 0 2px $color-flavor-primary;
 		text-decoration: none;
-		border: 1px solid #aaa;
+		border: 1px solid $color-flavor-secondary;
 	}
 }

@@ -1,7 +1,7 @@
 /* player */ 
 /* stat */
 /* stripe */
-
+/* misc */
 
 /* player */
 .player
@@ -85,6 +85,12 @@
 {
 	max-height: 22px;
 	display: inline;
+	margin: 0 4px;
+	
+	&:first-child
+	{
+		margin-left: 0;
+	}
 }
 
 .player__coins-container
@@ -186,6 +192,7 @@
 	background-repeat: no-repeat;
 	height: 400px;
 	background-position: center;
+	background-repeat: repeat-x;
 }
 
 .stripe__caption
@@ -235,4 +242,24 @@
 {	
 	display: flex;
 	justify-content: center;
+}
+
+.art-chap
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.art-chap--heavy-top
+{
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.section-text
+{
+	margin-top: -10px;
+	margin-bottom: 20px;
+	padding-left: 100px;
+    padding-right: 100px;
 }

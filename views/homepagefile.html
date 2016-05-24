@@ -7,10 +7,32 @@
 		<!-- META TAGS AND PAGE INFO -->
 		<!---------------------------------------------->
 		<meta charset="utf-8">
-		<meta name="Description" CONTENT="Thank Mr Friberg's Team Website">
+		
+		<!-- Viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<title>TMF :: Home</title>
-		<meta name="robots" content="noindex,nofollow">
+		<meta name="description" content="Thank Mr Friberg's Team Website">
+		<meta name="author" content="Omrii">
+		<meta name="keywords" content="thank, mr, friberg, thank mr friberg, csgo, Omrii">
+		
+		<meta name="robots" content="index, follow">
 
+		<!-- Open Graph Metatags -->
+		<meta property="og:url" content="http://omrin7.github.io/tmf">
+		<meta property="og:title" content="Thank Mr Friberg">
+		<meta property="og:description" content="thank almighty friberg. csgo esport website thing">
+		<meta property="og:image" content="/tmf/res/graphics/meta-thumbnail.jpg">
+		
+		<!-- Twiiter Card Metatags -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:creator" content="@OmriN7">
+		<meta name="twitter:url" content="http://omrin7.github.io/tmf">
+		<meta name="twitter:title" content="Thank Mr Friberg">
+		<meta name="twitter:description" content="thank almighty friberg. csgo esport website thing">
+		<meta name="twitter:image" content="http://omrin7.github.io/tmf/res/graphics/meta-thumbnail.jpg">
+
+		
 
 		<!-- LIBRARIES -->
 		<!---------------------------------------------->
@@ -32,7 +54,17 @@
 	<body>
 		<header>
 			<nav>
-				<p class="navbar-brand text-uppercase">thank mr friberg</p>
+			
+				<div class="navbar-header">
+					<h1 class="navbar-brand text-uppercase text-white">thank mr friberg</h1>
+				</div>
+				
+				<ul class="nav navbar-nav">
+					<li><a href="#aboutme" class="text-center text-white">The Team</a></li>
+					<li><a href="#mywork" class="text-center text-white">Our History</a></li>
+					<li><a href="#contact" class="text-center text-white">Applications</a></li>
+				</ul>
+				
 			</nav>
 
 			<div class="hero hero--bg-vid0">
@@ -65,31 +97,31 @@
 				<div class="stats">
 
 					<div class="stat-container" title="Pistol rounds won">
-						<img class="stat__img center-block" src="/tmf/res/graphics/icon_pistol.png">
+						<img class="stat__img center-block" src="/tmf/res/graphics/icon_pistol.png" alt="Icon of a 9m pistol">
 						<p class="stat__counter text-uppercase">9001</p>
 						<p class="stat__title text-uppercase">Pistols Rounds Won</p>
 					</div>
 
 					<div class="stat-container" title="Pistol rounds won">
-						<img class="stat__img center-block" src="/tmf/res/graphics/icon_skull.png">
+						<img class="stat__img center-block" src="/tmf/res/graphics/icon_skull.png" alt="Icon of a skull">
 						<p class="stat__counter text-uppercase">7355608</p>
 						<p class="stat__title text-uppercase">Frags</p>
 					</div>
 
 					<div class="stat-container" title="Pistol rounds won">
-						<img class="stat__img center-block" src="/tmf/res/graphics/icon_wins.png">
+						<img class="stat__img center-block" src="/tmf/res/graphics/icon_wins.png" alt="Icon of a trophy">
 						<p class="stat__counter text-uppercase">1337</p>
 						<p class="stat__title text-uppercase">Scrims Won</p>
 					</div>
 
 					<div class="stat-container" title="Pistol rounds won">
-						<img class="stat__img center-block" src="/tmf/res/graphics/icon_bullets.png">
+						<img class="stat__img center-block" src="/tmf/res/graphics/icon_bullets.png" alt="Icon of a large bullet sitting next to a smaller bullet">
 						<p class="stat__counter text-uppercase">8675309</p>
 						<p class="stat__title text-uppercase">Bullets fired</p>
 					</div>
 
 					<div class="stat-container" title="Pistol rounds won">
-						<img class="stat__img center-block" src="/tmf/res/graphics/icon_knife.png">
+						<img class="stat__img center-block" src="/tmf/res/graphics/icon_knife.png" alt="Icon of a knife">
 						<p class="stat__counter text-uppercase">420</p>
 						<p class="stat__title text-uppercase">Knife Kills</p>
 					</div>
@@ -102,7 +134,7 @@
 					<section class="col-md-push-3 col-md-6">
 						<header>
 							<h1 class="text-center text-uppercase text-light h4 no-margin">Our Mission</h1>
-							<hr>
+							<div class="heading-u heading-u--light-margin"></div>
 						</header>
 
 						<article>
@@ -168,7 +200,7 @@
 					<section class="col-md-offset-7 col-md-4">
 						<header>
 							<h1 class="text-left text-uppercase text-light h4 no-margin">Why Friberg?</h1>
-							<hr>
+							<div class="heading-u heading-u--light-margin"></div>
 						</header>
 
 						<article>
@@ -182,9 +214,14 @@
 			</div>
 
 			<!-- History Section -->
-			<section>
-				<p class="text-center">History page will be released soon. That button will lead to a page that kinda works... But not really...</p>
-
+			<section class="container">
+				<header>
+					<h1 class="text-center text-uppercase text-light h3 section-header">History</h1>
+				</header>
+				
+				<p class="text-center section-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor ac metus quis porta. Curabitur faucibus est eget tortor sollicitudin semper. Sed elementum tristique venenatis. Donec eget euismod velit. Proin et gravida lacus. Maecenas malesuada gravida neque, ac maximus diam interdum vel. Pellentesque sagittis orci ut vestibulum tristique.
+				</p>
 				<div class="center-flex">
 					<a href="/tmf/history" class="center-block text-center btn-standard">Learn More</a>
 				</div>
@@ -196,7 +233,7 @@
 					<section class="col-md-push-1 col-md-4">
 						<header>
 							<h1 class="text-left text-uppercase text-light h4 no-margin">Our Approach</h1>
-							<hr>
+							<div class="heading-u heading-u--light-margin"></div>
 						</header>
 
 						<article>
@@ -278,7 +315,7 @@
 					<em>Feedback regarding the layout or code is appreciated!</em>
 					<i class="twa twa-star"></i>
 
-					<hr style="border-top: 1px solid rgb(204, 204, 204);">
+					<hr class="hr--gray-light">
 					Copyright © Literally no one. All rights aren't reserved. You can do whatever. Source code's like, literally right here: <a href="https://github.com/OmriN7/tmf">https://github.com/OmriN7/tmf</a>
 				</footer>
 
@@ -295,7 +332,6 @@
 
 		<!-- JQUERY JS -->
 		<script src="/tmf/res/js/jquery-v2.2.3.min.js"></script>
-		
 		
 		<!-- ADDS PARRALAX TO STRIPES -->
 		<script src="/tmf/res/js/stripe-parralax.min.js"></script>

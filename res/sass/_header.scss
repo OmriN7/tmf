@@ -14,10 +14,20 @@ nav
 
 .navbar-brand
 {
-	color: white; 
-	margin: 0 0 0 10px;
-	padding: 10px;
+	margin: 0 0 0 20px;
+	padding: 0;
+	line-height: 50px;
 }
+
+.navbar-nav
+{
+	float: right;
+}
+
+
+
+
+
 
 /* hero */
 .hero-inner-container
@@ -59,17 +69,15 @@ nav
 	padding-bottom: 46.875%; //Sets height to width ratio
 }
 
-.hero--bg-cbbl
+.hero--bg-cbbl,
+.hero--bg-mirage
 {
-	background-image: url("/tmf/res/graphics/bg-cbbl.jpg");
+	background-position: 50% -20px;
 	background-size: 100%;
 }
 
-.hero--bg-mirage
-{
-	background-image: url("/tmf/res/graphics/bg-mirage.jpg");
-	background-size: 100%;
-}
+.hero--bg-cbbl{ background-image: url("/tmf/res/graphics/bg-cbbl.jpg"); }
+.hero--bg-mirage{ background-image: url("/tmf/res/graphics/bg-mirage.jpg"); }
 
 .hero__bg-vid
 {
@@ -81,6 +89,7 @@ nav
 {
 	height: 550px;
 }
+
 .hero__header
 {
 	color: white;
@@ -155,7 +164,7 @@ nav
 
 .hero-inner-container--center
 {
-	margin-top: 6%;
+	margin-top: 2%;
 }
 
 .hero__social--snapchat{ &:hover{ color: $color-snapchat; } }
@@ -166,5 +175,5 @@ nav
 .hero__social-container
 {
 	margin-top: auto;
-	margin-bottom: 1.5%;
+	margin-bottom: 4%;
 }
