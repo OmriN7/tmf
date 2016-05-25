@@ -15,5 +15,6 @@ gh-branch - distribution code
 - Switch all colors to actual varialbes (`black` to `$color-black`)
 - Use foreach loops in SASS when possible for some of the social media & other stuff
 - Use a set variable for the red color in the `.required-ast`
+- Optimize pictures in the team page
 
 
