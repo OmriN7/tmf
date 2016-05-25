@@ -8,7 +8,7 @@ gh-branch - distribution code
 
 ### TO DO LIST 
 
-- Add apps page
+- Ensure the tag usage in the `<form>` inside the applications page is all gucci
 - USE THIS FOR JAVASCRIPT SO IT WON'T BE ALL GROSS WITH LIKE 3 HTTP CALLS http://supergeekery.com/geekblog/comments/tutorial-using-gulp-and-htmlprocess-and-concatenate
 
 ### Possibilities for later
