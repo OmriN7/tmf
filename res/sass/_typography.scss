@@ -79,8 +79,15 @@ p, .p, label, .label
 }
 	
 
-
-
+.required-ast:after
+{
+	color: red;
+	content: '*';
+	display: inline;
+	margin-left: 2px;
+	font-size: 18px;
+}
+	
 address
 {
 	color: #ccc;

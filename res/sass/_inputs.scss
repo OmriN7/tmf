@@ -10,3 +10,45 @@ input
 		color: $color-black;
 	}
 }
+
+.input-full
+{
+	width: 100%;
+}
+
+.input-primary
+{
+	border: 0;
+	border-bottom: 1px solid #aaa;
+	box-shadow: 0;
+	background: white;
+	
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+
+.input-primary:focus
+{
+	border-bottom: 1px solid black;
+}
+
+.submit-primary
+{
+	background: white;
+	border: 1px solid #aaa;
+	font-size: 14px;
+	padding: 2px 25px;
+	border-radius: 50px;
+	font-weight: 200px;
+}
+
+.form-primary
+{
+	display: inline-block;
+}
+
+.form-primary-wrapper
+{
+	margin-top: 15px; 
+	margin-bottom: 15px;
+}

@@ -24,7 +24,23 @@ nav
 	float: right;
 }
 
-
+.navbar-nav li
+{
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+	
+	border-top: 0 solid $color-flavor-secondary;
+	
+	&:hover
+	{
+		border-top: 4px solid $color-white; 
+		padding-top: 0;
+	}
+	& a:hover
+	{
+		background-color: transparent;
+	}
+}
 
 
 
@@ -70,7 +86,9 @@ nav
 }
 
 .hero--bg-cbbl,
-.hero--bg-mirage
+.hero--bg-mirage,
+.hero--bg-cache,
+.hero--bg-inferno
 {
 	background-position: 50% -20px;
 	background-size: 100%;
@@ -78,6 +96,8 @@ nav
 
 .hero--bg-cbbl{ background-image: url("/tmf/res/graphics/bg-cbbl.jpg"); }
 .hero--bg-mirage{ background-image: url("/tmf/res/graphics/bg-mirage.jpg"); }
+.hero--bg-cache{ background-image: url("/tmf/res/graphics/bg-cache.jpg"); }
+.hero--bg-inferno{ background-image: url("/tmf/res/graphics/bg-inferno.jpg"); }
 
 .hero__bg-vid
 {
@@ -97,9 +117,10 @@ nav
 	font-weight: 300;
 	background: black;
 	color: white;
-	padding: 10px 30px 0 30px;
+	padding: 10px 30px;
 			
 	line-height: 0.9;
+	word-spacing: 10px;
 }
 
 .hero__caption

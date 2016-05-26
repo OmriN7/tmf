@@ -55,6 +55,17 @@ li
 	display: inline;
 }
 
+textarea
+{
+    resize: vertical;
+}
+
+label
+{
+	font-weight: 500;
+	display: block;
+}
+
 main
 {
 	background: white;
